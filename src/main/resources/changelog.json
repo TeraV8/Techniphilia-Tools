@@ -1,0 +1,23 @@
+{
+    "current_version": "0.0.0.0",
+    "version_history": [
+        {
+            "version_id": "0.0.0.0",
+            "project-authors": [
+                "TeraV"
+            ],
+            "update-authors": [
+                "TeraV"
+            ],
+            "release": false,
+            "build_date": "",
+            "release_date": null,
+            "functional": null,
+            "stable": null,
+            "features": [
+                "Beginning of project",
+                "Registers itemGroup"
+            ]
+        }
+    ]
+}
