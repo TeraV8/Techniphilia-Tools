@@ -1,4 +1,4 @@
-package net.javaserver.techniphilia.travel;
+package net.javaserver.techniphilia.tools;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
