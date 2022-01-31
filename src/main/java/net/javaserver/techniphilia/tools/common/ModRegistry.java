@@ -9,7 +9,7 @@ public class ModRegistry {
     public static final String MOD_NAME = "Techniphilia Tools";
     public static final String MOD_ID = "techniphilia-tools";
     public static final String MOD_VERSION = "0.0.0.0";
-    public static final String MOD_DEPENDENCIES = "required-after:techniphilia-core@[1.0.0.0,)";
+    public static final String MOD_DEPENDENCIES = "required-after:techniphilia-core@[1.0.1.0,2.0.0.0)";
     public static Logger logger;
     private static ModItemGroup itemGroup = null;
     private ModRegistry() {}
