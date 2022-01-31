@@ -17,6 +17,7 @@ import net.minecraftforge.registries.IForgeRegistry;
         name = net.javaserver.techniphilia.tools.common.ModRegistry.MOD_NAME,
         version = net.javaserver.techniphilia.tools.common.ModRegistry.MOD_VERSION,
         dependencies = net.javaserver.techniphilia.tools.common.ModRegistry.MOD_DEPENDENCIES)
+@Mod.EventBusSubscriber
 public class ComponentToolsLoader {
     private static Logger logger;
 
