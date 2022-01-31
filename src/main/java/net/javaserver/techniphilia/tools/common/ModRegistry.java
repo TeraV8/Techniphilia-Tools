@@ -1,5 +1,6 @@
 package net.javaserver.techniphilia.tools.common;
 
+import net.javaserver.techniphilia.tools.common.item.PickaxeCopper;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
@@ -25,7 +26,7 @@ public class ModRegistry {
         }
         @Override
         public ItemStack getTabIconItem() {
-            return new ItemStack(Items.AIR);
+            return new ItemStack(PickaxeCopper.instance());
         }
     }
 }
