@@ -10,10 +10,10 @@
                 "TeraV"
             ],
             "release": false,
-            "build_date": "",
+            "build_date": "02/07/2022",
             "release_date": null,
-            "functional": null,
-            "stable": null,
+            "functional": true,
+            "stable": true,
             "features": [
                 "Added all pickaxes.",
                 "Added all item models."
