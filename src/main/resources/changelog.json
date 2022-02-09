@@ -1,6 +1,23 @@
 {
-    "current_version": "0.0.1.0",
+    "current_version": "0.0.2.0",
     "version_history": [
+        {
+            "version_id": "0.0.2.0",
+            "project-authors": [
+                "TeraV"
+            ],
+            "update-authors": [
+                "TeraV"
+            ],
+            "release": false,
+            "build_date": "",
+            "release_date": null,
+            "functional": null,
+            "stable": null,
+            "features": [
+                "Added all shovels"
+            ]
+        },
         {
             "version_id": "0.0.1.0",
             "project-authors": [

@@ -5,7 +5,7 @@
   "description": "A component of the Techniphilia series.
 
 Provides tools, armor, and swords for Techniphilia metals.",
-  "version": "0.0.1.0",
+  "version": "0.0.2.0",
   "mcversion": "1.12.2",
   "url": "http://javaserver.net/techniphilia/tools",
   "updateUrl": "",
