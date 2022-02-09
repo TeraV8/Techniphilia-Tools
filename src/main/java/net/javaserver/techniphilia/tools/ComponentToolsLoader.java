@@ -52,5 +52,9 @@ public class ComponentToolsLoader {
         ComponentCoreLoader.registerRender(PickaxeTin.instance());
         ComponentCoreLoader.registerRender(PickaxeBronze.instance());
         ComponentCoreLoader.registerRender(PickaxeAluminum.instance());
+        ComponentCoreLoader.registerRender(ShovelCopper.instance());
+        ComponentCoreLoader.registerRender(ShovelTin.instance());
+        ComponentCoreLoader.registerRender(ShovelBronze.instance());
+        ComponentCoreLoader.registerRender(ShovelAluminum.instance());
     }
 }
