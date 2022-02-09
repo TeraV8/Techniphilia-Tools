@@ -40,6 +40,10 @@ public class ComponentToolsLoader {
         registry.register(PickaxeTin.instance());
         registry.register(PickaxeBronze.instance());
         registry.register(PickaxeAluminum.instance());
+        registry.register(ShovelCopper.instance());
+        registry.register(ShovelTin.instance());
+        registry.register(ShovelBronze.instance());
+        registry.register(ShovelAluminum.instance());
     }
     
     @SubscribeEvent
