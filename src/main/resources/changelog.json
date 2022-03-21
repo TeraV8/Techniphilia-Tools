@@ -1,6 +1,23 @@
 {
-    "current_version": "0.0.2.0",
+    "current_version": "0.0.3.0",
     "version_history": [
+        {
+            "version_id": "0.0.3.0",
+            "project-authors": [
+                "TeraV"
+            ],
+            "update-authors": [
+                "TeraV"
+            ],
+            "release": false,
+            "build_date": "03/20/2022",
+            "release_date": null,
+            "functional": true,
+            "stable": true,
+            "features": [
+                "Added all axes"
+            ]
+        },
         {
             "version_id": "0.0.2.0",
             "project-authors": [
