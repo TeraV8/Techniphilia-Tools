@@ -6,7 +6,9 @@ import net.minecraft.item.ItemAxe;
 public class AxeAluminum extends ItemAxe {
     private static AxeAluminum instance = null;
     private AxeAluminum() {
-        super(net.javaserver.techniphilia.core.common.ModRegistry.ALUMINUM_TOOL);
+        super(net.javaserver.techniphilia.core.common.ModRegistry.ALUMINUM_TOOL,
+                net.javaserver.techniphilia.core.common.ModRegistry.ALUMINUM_TOOL.getAttackDamage(),
+                net.javaserver.techniphilia.core.common.ModRegistry.ALUMINUM_TOOL.getEfficiency());
         setUnlocalizedName("axe_aluminum");
         setRegistryName("techniphilia", "axe_aluminum");
         setCreativeTab(ModRegistry.getItemGroup());

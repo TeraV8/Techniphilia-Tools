@@ -44,6 +44,10 @@ public class ComponentToolsLoader {
         registry.register(ShovelTin.instance());
         registry.register(ShovelBronze.instance());
         registry.register(ShovelAluminum.instance());
+        registry.register(AxeCopper.instance());
+        registry.register(AxeTin.instance());
+        registry.register(AxeBronze.instance());
+        registry.register(AxeAluminum.instance());
     }
     
     @SubscribeEvent
@@ -56,5 +60,9 @@ public class ComponentToolsLoader {
         ComponentCoreLoader.registerRender(ShovelTin.instance());
         ComponentCoreLoader.registerRender(ShovelBronze.instance());
         ComponentCoreLoader.registerRender(ShovelAluminum.instance());
+        ComponentCoreLoader.registerRender(AxeCopper.instance());
+        ComponentCoreLoader.registerRender(AxeTin.instance());
+        ComponentCoreLoader.registerRender(AxeBronze.instance());
+        ComponentCoreLoader.registerRender(AxeAluminum.instance());
     }
 }

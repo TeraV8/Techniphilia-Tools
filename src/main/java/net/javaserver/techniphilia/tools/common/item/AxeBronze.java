@@ -6,7 +6,9 @@ import net.minecraft.item.ItemAxe;
 public class AxeBronze extends ItemAxe {
     private static AxeBronze instance = null;
     private AxeBronze() {
-        super(net.javaserver.techniphilia.core.common.ModRegistry.BRONZE_TOOL);
+        super(net.javaserver.techniphilia.core.common.ModRegistry.BRONZE_TOOL,
+                net.javaserver.techniphilia.core.common.ModRegistry.BRONZE_TOOL.getAttackDamage(),
+                net.javaserver.techniphilia.core.common.ModRegistry.BRONZE_TOOL.getEfficiency());
         setUnlocalizedName("axe_bronze");
         setRegistryName("techniphilia", "axe_bronze");
         setCreativeTab(ModRegistry.getItemGroup());

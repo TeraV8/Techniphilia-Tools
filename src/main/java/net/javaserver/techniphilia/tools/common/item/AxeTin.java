@@ -6,7 +6,9 @@ import net.minecraft.item.ItemAxe;
 public class AxeTin extends ItemAxe {
     private static AxeTin instance = null;
     private AxeTin() {
-        super(net.javaserver.techniphilia.core.common.ModRegistry.TIN_TOOL);
+        super(net.javaserver.techniphilia.core.common.ModRegistry.TIN_TOOL,
+                net.javaserver.techniphilia.core.common.ModRegistry.TIN_TOOL.getAttackDamage(),
+                net.javaserver.techniphilia.core.common.ModRegistry.TIN_TOOL.getEfficiency());
         setUnlocalizedName("axe_tin");
         setRegistryName("techniphilia", "axe_tin");
         setCreativeTab(ModRegistry.getItemGroup());
