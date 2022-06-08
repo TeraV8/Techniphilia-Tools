@@ -48,6 +48,10 @@ public class ComponentToolsLoader {
         registry.register(AxeTin.instance());
         registry.register(AxeBronze.instance());
         registry.register(AxeAluminum.instance());
+        registry.register(HoeCopper.instance());
+        registry.register(HoeTin.instance());
+        registry.register(HoeBronze.instance());
+        registry.register(HoeAluminum.instance());
     }
     
     @SubscribeEvent
@@ -64,5 +68,9 @@ public class ComponentToolsLoader {
         ComponentCoreLoader.registerRender(AxeTin.instance());
         ComponentCoreLoader.registerRender(AxeBronze.instance());
         ComponentCoreLoader.registerRender(AxeAluminum.instance());
+        ComponentCoreLoader.registerRender(HoeCopper.instance());
+        ComponentCoreLoader.registerRender(HoeTin.instance());
+        ComponentCoreLoader.registerRender(HoeBronze.instance());
+        ComponentCoreLoader.registerRender(HoeAluminum.instance());
     }
 }
